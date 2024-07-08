@@ -138,3 +138,78 @@ margin-bottom: 48px;
     width: 30%;
     margin-right: 136px;
 }
+
+/* shedule section styles here */
+
+.shedule-container{
+    background: #ffe7e7;
+    max-width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    justify-content: center;
+    
+    
+
+}
+.shedule-text{
+    width: 549px;
+    height: 272px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.shedule-text span{
+    color: red;
+}
+.shedule-text button{
+    background-color: red;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.sale{
+    width: 1320px;
+    height: 662px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid green;
+
+    
+}
+.sale-image{
+    width: 100%;
+    height: 229px;
+    position: absolute;
+    background: red;
+    top: 66%;
+}
+.sale-image img{
+    position: absolute;
+    width: 676px;
+    height: 577px;
+    bottom: 90px;
+    
+    
+}
+.icon50{
+    position: absolute;
+    left: 650px;
+    top: 50px;
+    z-index: 1;
+}
+.yar{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 800px;
+    top: 100px;
+}
