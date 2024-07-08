@@ -1,10 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Merriweather", serif;
+
+}
+header{
+    margin-top: 50px;
 }
 .banner-container{
-    width: 1320px;
+    background-image: url("images/Banner\ Image.png");
+    background-color: rgb(0,0,0,0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1320px;
+    height: 600px;
     margin: 0 auto;
-    border: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
 }
+.banner-text{
+    width: 632px;
+    height: 246px;
+    text-align: center;
+}
+.banner-text p{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* 65% off section here */
+
+.discount-container{
+    max-width: 802px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+.discount-text{
+    text-align: center;
+}
+.discount-image{
+    max-width: 802px;
+    height: 500px;
+}
+.discount-image img{
+    width: 100%;
+    height: 100%;
+}
+.discount-text h1{
+    color: rgb(255, 0, 0);
+    font-family: intr;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.discount-text p{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.discount-text h2{
+    color: rgb(7, 2, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
