@@ -158,7 +158,7 @@ margin-bottom: 48px;
 .shedule-text{
     width: 549px;
     height: 272px;
-    display: flex;
+        display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -177,11 +177,10 @@ margin-bottom: 48px;
     margin-top: 50px;
 }
 .sale{
-    width: 1320px;
+max-width: 1320px;
     height: 662px;
     margin: 0 auto;
     position: relative;
-    border: 2px solid green;
 
     
 }
@@ -212,4 +211,82 @@ margin-bottom: 48px;
     height: 300px;
     left: 800px;
     top: 100px;
+}
+
+
+/* portfolio styles here */
+.portfolio-container{
+    max-width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.comming-soon-txt{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.comming-soon-txt .subtitle{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+.comming-soon-txt h2{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+margin-bottom: 22px;
+}
+.comming-soon-txt .des{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.portfolio-image{
+    width: 35%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.new-year-wish{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 118px;
+
+}
+.new-year-wish h1{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+margin-bottom: 16px;
+}
+.new-year-wish p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.wish{
+    width: 140px;
+    height: 140px;
 }
